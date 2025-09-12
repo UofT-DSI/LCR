@@ -6,3 +6,4 @@ __pycache__/
 tmp/
 uv.lock
 lcr-env
+.venv
