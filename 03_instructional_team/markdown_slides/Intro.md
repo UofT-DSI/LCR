@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsi-certificates-theme
+theme: dsi_certificates_theme
 _class: invert
 paginate: true
 math: mathjax
@@ -8,8 +8,9 @@ math: mathjax
 
 # 0: Introduction to Statistical Learning
 
-```code
-$ echo "Data Science Institute"
+```console
+Data Sciences Institute
+Linear Regression, Classification, and Resampling
 ```
 
 ---
