@@ -75,7 +75,7 @@ The technical facilitator will introduce the concepts through a collaborative li
 * Participants are encouraged to ask questions and collaborate with others to enhance learning.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/Onboarding/tree/tech-onboarding-docs).
+* We expect participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
 * We encourage participants to default to having their camera on at all times and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
@@ -127,6 +127,8 @@ Alternative Textbook: [Data Science: A First Introduction](https://python.datasc
 ├── 03_instructional_team
 ├── 04_this_cohort
 ├── LICENSE
+├── SETUP.md
+├── pyproject.toml
 └── README.md
 ```
 
@@ -137,5 +139,7 @@ Alternative Textbook: [Data Science: A First Introduction](https://python.datasc
 * **this_cohort**: Additional materials and resources for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
+* **SETUP.md**: Contains the steps required to set up this repo for the module.
+* **pyproject.toml**: Tells Python which packages this repo needs to run.
 * **README.md**: This file.
 
