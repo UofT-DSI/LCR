@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+lcr_env.egg-info/PKG-INFO
+lcr_env.egg-info/SOURCES.txt
+lcr_env.egg-info/dependency_links.txt
+lcr_env.egg-info/requires.txt
+lcr_env.egg-info/top_level.txt
