@@ -43,18 +43,25 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 
 **Assignment Due Dates**
 
-| Assessment   | Content                            | Due Date     |
-|--------------|------------------------------------|--------------|
-| Assignment 1 | Classification (Sessions 1, 2)     | Nov 24 |
-| Assignment 2 | Regression (Sessions 3, 4)         | Dec 3    |
-| Assignment 3 | Clustering & Resampling (Sessions 5, 6) | Dec 10   |
+| Assessment   | Content                            | Due Dates for DC     | Due Dates for Cohort 8     |
+|--------------|------------------------------------|--------------|--------------|
+| Assignment 1 | Classification (Sessions 1, 2)     | Nov 24 | Dec 15   |
+| Assignment 2 | Regression (Sessions 3, 4)         | Dec 3    |Jan 6   |
+| Assignment 3 | Clustering & Resampling (Sessions 5, 6) | Dec 10   |Jan 12   |
 
-### Contacts
+### Contacts for DC
 **Questions can be submitted to the _#dc2-help_ channel on Slack**
 * Technical Facilitator: **Julia**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06D4QM7YEA)
 * Learning Support Staff: **Dmytro**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06UR87QWQ7)
 * Learning Support Staff: **Vishakh**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U087AAL9Y78)
 * Learning Support Staff: **Anjali**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06V2T9C2P7)
+
+### Contacts for Cohort 8
+**Questions can be submitted to the _#cohort8-help_ channel on Slack**
+* Technical Facilitator: **Julia**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06D4QM7YEA)
+* Learning Support Staff: **Gayathri**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U08R6URRSCT)
+* Learning Support Staff: **Vishakh**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U087AAL9Y78)
+* Learning Support Staff: **Aditya**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U07R9T8MKND)
 
 ### Delivery of the Learning Module
 
@@ -76,7 +83,7 @@ The technical facilitator will introduce the concepts through a collaborative li
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
 * We expect participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/README.md).
-* We encourage participants to default to having their camera on at all times and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
+* We encourage participants to default to having their camera on at all times and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provide real-time feedback for the instructional team. 
 
 ## Resources
 Feel free to use the following as resources:
