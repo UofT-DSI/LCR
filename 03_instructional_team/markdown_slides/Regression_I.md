@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -24,7 +23,7 @@ Linear Regression, Classification, and Resampling
   - Eg., we could try to use the size of a house to predict its sale price.
 
 - The regression model predicts a new observation’s response variable based on finding a pattern in data set of past observations and drawing a **line of best fit** through it.
- ![bg right:40% w:450](./images/linear_reg.png) 
+ ![bg right:40% w:350](./images/linear_reg.png) 
 
 ---
 #### Building a regression model
@@ -44,18 +43,18 @@ Real estate transactions in Sacramento, California is the dataset we will be usi
 - Visualizing the relationship between house size (predictor) and sale price (response) shows that as the size of a house increases, its sale price generally rises as well. 
 - This suggests that we could potentially predict the sale price of a house based on its size, even if the house hasn't been sold yet.
 
-![bg right:50% w:700](./images/scatterplot.png)
+![bg right:50% w:550](./images/scatterplot.png)
 
 ---
  ##### KNN Regression
  - To decide whether the $350,000 asking price for the 2,000 square-foot house in Sacramento is fair, we can use our existing data to predict its likely sale price. 
  - However, since there are no exact observations for a 2,000 square-foot house in our dataset, we need a method to estimate the price. 
  - One approach is to use a predictive model, such as **KNN regression**, to predict the sale price based on the prices of houses with similar sizes in the dataset. 
-![bg right:40% w:700](./images/scatterplot_prediction.png)
+![bg right:40% w:500](./images/scatterplot_prediction.png)
 ---
 #### K = 5 (5 Nearest-neighbours)
 - We can find the 5 houses in our dataset that are closest in size to 2,000 square feet—these are our 5 nearest neighbors. By **calculating the mean of the sale prices for these 5 nearest neighbors**, we can estimate the likely sale price of the 2,000 square-foot house.
-  ![bg right:40% w:700](./images/scatterplot_knn5.png)
+  ![bg right:40% w:500](./images/scatterplot_knn5.png)
 ---
 #### Tuning the model
 - How do we choose the optimal $K$, and how can we evaluate whether our model is effective at making predictions? 
@@ -76,12 +75,12 @@ Real estate transactions in Sacramento, California is the dataset we will be usi
 3. **Find the Average:** Calculate the average of these squared errors.
 
 4. **Take the Square Root:** Finally, take the square root of that average to get the RMSPE.
- ![bg right:35% w:450](./images/error.png) 
+ ![bg right:35% w:400](./images/error.png) 
 
 ---
 The **orange line** represents the predicted prices for various house sizes based on the KNN regression model.
 The **vertical lines** extend from each observed point to the orange line, representing the error between the true sale price and the predicted price.
-  ![bg right:50% w:700](./images/scatterplot_knn_predict.png)
+  ![bg right:50% w:500](./images/scatterplot_knn_predict.png)
 
 ---
 #### Underfitting and Overfitting
@@ -92,8 +91,8 @@ The **vertical lines** extend from each observed point to the orange line, repre
 The ideal model strikes a balance: it captures the overall trend without being swayed by noise in the data. 
 
 ---
-  ![bg w:750](./images/under_over.png)
 
+  ![bg w:600](./images/under_over.png)
 
 ---
 #### Multivariable KNN regression
