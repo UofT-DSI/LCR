@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -125,7 +124,7 @@ $$
 - This process, called *standardization*, adjusts the data so each variable has a mean of 0 and a standard deviation of 1, allowing the model to consider each variable equally based on its relationship to the outcome rather than its scale.
 ---
 ##### Example: unstandardized vs standardized data
-![w:900](./images/KNN_standardization.png)
+![bg right:50% w:600](./images/KNN_standardization.png)
 - When unstandardized, 'area' has a much larger scale than 'smoothness', and could overpower the model, even if it's not the most significant factor. Standardizing data ensures that no single variable disproportionately influences the model due to its scale.
 
 ---

@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 math: mathjax
 ---
@@ -82,7 +81,7 @@ We use a simple formula to show how the budget (predictor) might be related to s
 
 ---
 ## What is Statistical Learning?
-![Sales Figure, w:700](./images/01_sales_fig.png) 
+![Sales Figure, bg right:50% w:650](./images/01_sales_fig.png) 
 
 The relationship between the advertising budgets and sales can be shown by a line of best fit, but there will always be some random error in our predictions. This random error shows that no model is perfect.
 

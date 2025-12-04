@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -69,7 +68,7 @@ Linear Regression, Classification, and Resampling
 - To assess how much sample estimates vary, we could pull many samples (e.g., 20,000) of size 40 from the population and calculate the proportion of "Entire home or apartment" listings for each sample.
 - We can then visualize the distribution of these sample proportions using a histogram, which represents the **sampling distribution**.
 - The sampling distribution helps us understand the expected *variability* in sample proportions for a sample size of 40.
-![bg right:30% w:400](./images/sample_dist.png)
+![bg right:30% w:350](./images/sample_dist.png)
 
 ---
 Here, we see the sampling distribution is bell-shaped 🔔, symmetric, and centered around 0.75, with sample proportions ranging from approximately 0.55 to 0.95. The mean of the sample proportions is 0.748, which is close to the population proportion of 0.747.
@@ -111,11 +110,11 @@ If we took multiple samples of sizes 20, 50, 100, and 500, then plot the samplin
 1. The mean of the sample means (across samples) is equal to the population mean, meaning the sampling distribution is centered at the population mean.
 2. Increasing the sample size decreases the spread (variability) of the sampling distribution, leading to a more reliable point estimate of the population parameter.
 3. The distribution of the sample mean is approximately bell-shaped 🔔.
-![bg right:40% w:300](./images/samples.png)
+![bg right:40% w:250](./images/samples.png)
 
 ---
 **Key Point: A large enough sample should resemble the population distribution.**
-![bg right:70% w:800](./images/large_sample.png)
+![bg right:70% w:600](./images/large_sample.png)
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -27,6 +26,9 @@ Provides accurate predictions on data not seen during training.
   - *Training set:* used to build the classifier
   - *Testing set:* to evaluate the performance of the classifier
 
+---
+
+##### What makes a good classifier
 
 ![bg right:41% w:500](./images/training_test.png)
 **Rule: Test data cannot be used to build the model and must remain separate to provide an unbiased evaluation of the model's performance on unseen data.**

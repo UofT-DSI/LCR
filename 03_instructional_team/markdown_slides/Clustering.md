@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: dsi_certificates_theme
-_class: invert
 paginate: true
 ---
 
@@ -130,7 +129,7 @@ $$
   2. **Label update**: Reassign each data point to the cluster with the nearest center.
 - These steps are repeated until cluster assignments stabilize.
 ---
-![bg right:40% w:500](./images/kmean_steps.png)
+![bg right:40% w:400](./images/kmean_steps.png)
 - Figure depicts the first 3 iterations
 
 - The K-means algorithm can terminate when no assignments change, as observed in the **third iteration where both cluster centers and labels remain the same.**
@@ -140,7 +139,7 @@ $$
 ##### Random restarts
 - Unlike classification and regression models, K-means can get “stuck” in a suboptimal solution due to poor initializations.
 - Figure illustrates the first 4 iterations of K-means with this poor initialization, showing how the clustering evolves with each iteration (center updates and label reassignments).
-![bg right:40% w:370](./images/poor_initial.png)
+![bg right:40% w:300](./images/poor_initial.png)
 
 ---
 - Poor clustering indicates that K-means cannot improve further from the initialization.
@@ -157,7 +156,7 @@ $$
   - **Too large $K$**: Leads to excessive subdivision of data, reducing total WSSD but only slightly after a certain point.
 
 ---
-![bg right:60% w:600](./images/k1-9.png)
+![bg right:60% w:500](./images/k1-9.png)
 - Figure depicts clustering results for $K$ values ranging from 1 to 9, with cluster centers highlighted. 
   
 ---
