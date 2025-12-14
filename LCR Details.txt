@@ -1,0 +1,56 @@
+# Create mapping between values and colors
+labels = cancer["diagnosis"].unique().tolist()
+colors = list(mcolors.TABLEAU_COLORS.keys())
+color_map = {l: colors[i % len(colors)] for i, l in enumerate(labels)}
+
+# Create a 3D plot
+ax = plt.axes(projection="3d")
+
+# Plot data points with color corresponding to diagnosis
+sc = ax.scatter3D(cancer['perimeter_mean'], cancer['concavity_mean'], cancer['symmetry_mean'], 
+                  c=cancer['diagnosis'].map(color_map), marker='o')
+
+# Define the new observation
+new_observation = {'perimeter_mean': 97, 'concavity_mean': 0.20, 'symmetry_mean': 0.22}
+
+
+# Plot the new observation
+ax.scatter3D(new_observation['perimeter_mean'], new_observation['concavity_mean'], 
+             new_observation['symmetry_mean'], color='red', edgecolor='black', 
+             s=100, marker='o', label='New Observation')
+
+# Add axis labels
+ax.set_xlabel('Perimeter Mean')
+ax.set_ylabel('Concavity Mean')
+ax.set_zlabel('Symmetry Mean')
+ax.set_title('3D Scatter Plot of Perimeter Mean, Concavity Mean, and Symmetry Mean')
+
+# Create custom legend handles
+handles = [plt.Line2D([0], [0], marker='o', color='w', label=label,
+                      markersize=10, markerfacecolor=color_map[label])
+           for label in labels]
+
+# Add custom legend for new observation
+handles.append(plt.Line2D([0], [0], marker='o', color='red', label='New Observation', 
+                          markersize=10, markeredgecolor='black'))
+
+# Add legend
+plt.legend(handles=handles, title='Diagnosis')
+
+# Show plot
+plt
+
+============================
+
+Is that correct these step follow to use k-NN 
+1-Load and preprocess your data using pandas.
+2-Select features (X) and labels (y).
+3-Create the k-NN classifier with KNeighborsClassifier().
+4-Train (fit) the model using .fit(X, y).
+5-Make predictions with .predict() (for classes) or .predict_proba() (for probabilities).
+
+=======================
+
+https://python.datasciencebook.ca/index.html
+
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
