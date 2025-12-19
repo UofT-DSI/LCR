@@ -54,3 +54,5 @@ Is that correct these step follow to use k-NN
 https://python.datasciencebook.ca/index.html
 
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+
+The StatQuest Illustrated Guide to Machine Learning v2.2 is Amazing
