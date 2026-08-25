@@ -52,7 +52,7 @@ Participants should review the [Assignment Submission Guide](https://github.com/
 ### Contacts
 **Questions can be submitted to the _#dsf2-help_ channel on Slack**
 * Technical Facilitator: **Julia**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U06D4QM7YEA)
-* Learning Support Staff: **Alysha**. Questions can be sent via [Slack TBA]
+* Learning Support Staff: **Alysha**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U0BRCL62MH9)
 * Learning Support Staff: **Kasra**. Questions can be sent via [Slack](https://uoft-dsi-certificates.slack.com/team/U0ASXQSJBHP)
 
 
